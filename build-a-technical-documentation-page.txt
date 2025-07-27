@@ -1,0 +1,188 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>Technical Documentation</title>
+                  <link rel="stylesheet" href="styles.css" />
+                    </head>
+                      <body>
+                          <nav id="navbar">
+                                <header>JavaScript Documentation</header>
+                                      <a class="nav-link" href="#Introduction">Introduction</a>
+                                            <a class="nav-link" href="#JavaScript_Syntax">JavaScript Syntax</a>
+                                                  <a class="nav-link" href="#Variables">Variables</a>
+                                                        <a class="nav-link" href="#Functions">Functions</a>
+                                                              <a class="nav-link" href="#Loops">Loops</a>
+                                                                  </nav>
+
+                                                                      <main id="main-doc">
+                                                                            <section class="main-section" id="Introduction">
+                                                                                    <header>Introduction</header>
+                                                                                            <p>JavaScript is a programming language used for web development.</p>
+                                                                                                    <p>It can update and change both HTML and CSS.</p>
+                                                                                                            <p>It can calculate, manipulate and validate data.</p>
+                                                                                                                    <p>JavaScript is lightweight and versatile.</p>
+                                                                                                                            <p>It is an essential part of the web alongside HTML and CSS.</p>
+                                                                                                                                    <code>console.log("Hello, World!");</code>
+                                                                                                                                            <ul>
+                                                                                                                                                      <li>Client-side scripting</li>
+                                                                                                                                                                <li>Object-based</li>
+                                                                                                                                                                        </ul>
+                                                                                                                                                                              </section>
+
+                                                                                                                                                                                    <section class="main-section" id="JavaScript_Syntax">
+                                                                                                                                                                                            <header>JavaScript Syntax</header>
+                                                                                                                                                                                                    <p>JavaScript syntax is the set of rules defining how the code is written.</p>
+                                                                                                                                                                                                            <p>Statements are separated by semicolons.</p>
+                                                                                                                                                                                                                    <p>Curly braces define code blocks.</p>
+                                                                                                                                                                                                                            <p>Comments start with // or /* */.</p>
+                                                                                                                                                                                                                                    <p>JavaScript is case sensitive.</p>
+                                                                                                                                                                                                                                            <code>let x = 5;</code>
+                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                              <li>Semicolons optional</li>
+                                                                                                                                                                                                                                                                        <li>Blocks use { }</li>
+                                                                                                                                                                                                                                                                                </ul>
+                                                                                                                                                                                                                                                                                      </section>
+
+                                                                                                                                                                                                                                                                                            <section class="main-section" id="Variables">
+                                                                                                                                                                                                                                                                                                    <header>Variables</header>
+                                                                                                                                                                                                                                                                                                            <p>Variables store data values.</p>
+                                                                                                                                                                                                                                                                                                                    <p>You can declare them using var, let, or const.</p>
+                                                                                                                                                                                                                                                                                                                            <p>Use meaningful names for readability.</p>
+                                                                                                                                                                                                                                                                                                                                    <p>const is block-scoped and cannot be reassigned.</p>
+                                                                                                                                                                                                                                                                                                                                            <p>let is preferred for reassignable variables.</p>
+                                                                                                                                                                                                                                                                                                                                                    <code>let name = "Mishal";</code>
+                                                                                                                                                                                                                                                                                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                      <li>var (function-scoped)</li>
+                                                                                                                                                                                                                                                                                                                                                                                <li>let and const (block-scoped)</li>
+                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                                                                                                                                                              </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                    <section class="main-section" id="Functions">
+                                                                                                                                                                                                                                                                                                                                                                                                            <header>Functions</header>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <p>Functions are blocks of code designed to perform a task.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                            <p>They are defined using the function keyword or arrow syntax.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>Functions can take parameters and return results.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>They help make code reusable.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>You can call a function by its name followed by parentheses.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            <code>function greet() { return "Hello!"; }</code>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <li>Named functions</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>Arrow functions</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <section class="main-section" id="Loops">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <header>Loops</header>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>Loops are used to run the same code repeatedly.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>Common types: for, while, do...while.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>Loops must include a stopping condition.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <p>Be careful to avoid infinite loops.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <p>You can break out of a loop using `break`.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <li>for loop</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li>while loop</li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </section>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </main>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </html>
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+    box-sizing: border-box;
+      margin: 0;
+        padding: 0;
+        }
+
+        body {
+          font-family: Arial, sans-serif;
+            display: flex;
+              min-height: 100vh;
+              }
+
+              #navbar {
+                background-color: #2e3b4e;
+                  color: white;
+                    padding: 1rem;
+                      width: 250px;
+                        position: fixed;
+                          height: 100vh;
+                            overflow-y: auto;
+                            }
+
+                            #navbar header {
+                              font-size: 1.5rem;
+                                margin-bottom: 1rem;
+                                }
+
+                                .nav-link {
+                                  display: block;
+                                    color: white;
+                                      text-decoration: none;
+                                        padding: 0.5rem 0;
+                                          margin-left: 0.5rem;
+                                          }
+
+                                          .nav-link:hover {
+                                            text-decoration: underline;
+                                            }
+
+                                            #main-doc {
+                                              margin-left: 260px;
+                                                padding: 2rem;
+                                                  flex: 1;
+                                                  }
+
+                                                  .main-section {
+                                                    margin-bottom: 2rem;
+                                                    }
+
+                                                    .main-section header {
+                                                      font-size: 1.4rem;
+                                                        margin-bottom: 0.75rem;
+                                                        }
+
+                                                        p {
+                                                          margin: 0.5rem 0;
+                                                          }
+
+                                                          code {
+                                                            background: #f4f4f4;
+                                                              padding: 0.5rem;
+                                                                display: block;
+                                                                  margin: 0.5rem 0;
+                                                                    font-family: monospace;
+                                                                    }
+
+                                                                    li {
+                                                                      margin-left: 2rem;
+                                                                      }
+
+                                                                      /* Media Query */
+                                                                      @media (max-width: 768px) {
+                                                                        body {
+                                                                            flex-direction: column;
+                                                                              }
+
+                                                                                #navbar {
+                                                                                    position: relative;
+                                                                                        width: 100%;
+                                                                                            height: auto;
+                                                                                              }
+
+                                                                                                #main-doc {
+                                                                                                    margin-left: 0;
+                                                                                                      }
+                                                                                                      }
+
+
+** end of styles.css **
+
